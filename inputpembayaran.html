@@ -1,0 +1,35 @@
+<h2>Data Pembayaran</h2>
+<form>
+  <div class="form-group">
+    <label for="metode_pembayaran">Metode Pembayaran:</label>
+    <select class="form-control" id="metode_pembayaran" required>
+      <option value="">Pilih metode pembayaran</option>
+      <option value="transfer_bank">Transfer Bank</option>
+      <option value="dompet_digital">Dompet Digital</option>
+    </select>
+  </div>
+  <div class="form-group" id="bank_info" style="display: none;">
+    <label for="nama_bank">Nama Bank:</label>
+    <input type="text" class="form-control" id="nama_bank" placeholder="Masukkan nama bank">
+  </div>
+  <div class="form-group" id="dompet_info" style="display: none;">
+    <label for="nama_dompet">Nama Dompet Digital:</label>
+    <input type="text" class="form-control" id="nama_dompet" placeholder="Masukkan nama dompet digital">
+  </div>
+  <button type="submit" class="btn btn-primary">Simpan Data Pembayaran</button>
+</form>
+<script>
+  // Menampilkan form input berdasarkan metode pembayaran yang dipilih
+  document.getElementById("metode_pembayaran").addEventListener("change", function() {
+    if (this.value === "transfer_bank") {
+      document.getElementById("bank_info").style.display = "block";
+      document.getElementById("dompet_info").style.display = "none";
+    } else if (this.value === "dompet_digital") {
+      document.getElementById("bank_info").style.display = "none";
+      document.getElementById("dompet_info").style.display = "block";
+    } else {
+      document.getElementById("bank_info").style.display = "none";
+      document.getElementById("dompet_info").style.display = "none";
+    }
+  });
+</script>
