@@ -1,0 +1,107 @@
+Logic Marketplace "Fresh & Local":
+
+1. Pendaftaran dan Verifikasi:
+
+Petani/Peternak:
+
+Pendaftaran dengan informasi identitas dan lokasi.
+
+Verifikasi lokasi dan jenis produk yang dihasilkan (melalui foto/video, kunjungan lapangan, atau sertifikasi).
+
+Penentuan kategori produk: buah, sayuran, daging, susu, telur, dll.
+
+Menetapkan kualitas produk (organik, bebas pestisida, dll.).
+
+Konsumen:
+
+Pendaftaran dengan informasi identitas dan lokasi.
+
+Opsi untuk menyimpan preferensi produk (misalnya, hanya produk organik, jenis buah tertentu).
+
+2. Penambahan dan Manajemen Produk:
+
+Petani/Peternak:
+
+Menambahkan produk baru dengan deskripsi, foto, harga, dan informasi tambahan (misalnya, musim panen).
+
+Mengatur stok produk dan menetapkan jadwal ketersediaan (hari panen).
+
+Mengatur harga dan diskon khusus.
+
+Sistem:
+
+Pencocokan produk dengan preferensi konsumen berdasarkan lokasi dan preferensi (misalnya, konsumen hanya melihat produk organik dalam radius 10km).
+
+Menghasilkan rekomendasi produk berdasarkan musim panen dan permintaan konsumen.
+
+3. Pemesanan dan Pembayaran:
+
+Konsumen:
+
+Menambahkan produk ke keranjang belanja.
+
+Memilih metode pengiriman (pengambilan sendiri, kurir, atau kerjasama dengan jasa pengiriman).
+
+Memilih metode pembayaran (transfer bank, dompet digital).
+
+Sistem:
+
+Menghitung total biaya pesanan (produk, pengiriman, dan pajak).
+
+Mengatur jadwal pengiriman (berdasarkan ketersediaan produk dan waktu panen).
+
+Mengatur proses pembayaran dan verifikasi.
+
+Mengirimkan notifikasi kepada petani/peternak dan konsumen mengenai status pemesanan.
+
+4. Pengiriman dan Penerimaan:
+
+Petani/Peternak:
+
+Menerima notifikasi pemesanan dan mengatur proses pengemasan produk.
+
+Mengantar produk ke titik pengumpulan (jika menggunakan jasa pengiriman) atau ke lokasi konsumen (jika pengambilan sendiri).
+
+Sistem:
+
+Memberikan informasi real-time kepada konsumen mengenai status pengiriman.
+
+Konsumen:
+
+Menerima produk dan melakukan konfirmasi penerimaan.
+
+Memberikan ulasan dan rating terhadap produk dan penjual.
+
+5. Sistem Ulasan dan Rating:
+
+Konsumen:
+
+Memberikan ulasan dan rating terhadap kualitas produk, layanan penjual, dan proses pengiriman.
+
+Memberikan umpan balik kepada petani/peternak dan sistem.
+
+Sistem:
+
+Menerima dan memvalidasi ulasan dan rating.
+
+Memberikan peringkat penjual dan produk berdasarkan ulasan.
+
+Menampilkan ulasan dan peringkat di halaman produk dan profil penjual.
+
+6. Fitur Tambahan:
+
+Program Loyalitas: Menawarkan program loyalitas dengan poin dan hadiah kepada konsumen.
+
+Promosi dan Diskon: Mengatur program promosi dan diskon khusus untuk menarik pembeli dan penjual.
+
+Pelatihan dan Dukungan: Memberikan pelatihan dan dukungan kepada petani/peternak untuk menggunakan sistem dan meningkatkan kualitas produk mereka.
+
+Analisis Data: Menganalisis data penjualan dan perilaku konsumen untuk mengembangkan strategi bisnis yang lebih baik.
+
+Catatan:
+
+Logic ini merupakan kerangka dasar dan dapat disesuaikan dengan kebutuhan spesifik.
+
+Penting untuk mempertimbangkan faktor seperti keamanan, privasi data, dan perlindungan konsumen.
+
+Desain sistem yang mudah digunakan, responsif, dan aman sangat penting untuk keberhasilan marketplace ini.
