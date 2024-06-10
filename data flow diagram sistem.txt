@@ -1,0 +1,67 @@
+                                     +-----------------+
+                                     |   External      |
+                                     |   Entities      |
+                                     +-----------------+
+                                          |
+                                          |
+                                          |
+                  +-----------------+       |       +-----------------+
+                  |  Petani/Peternak  |-------|-------|  Konsumen       |
+                  +-----------------+       |       +-----------------+
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+            +-----------------+    +-----------------+    +-----------------+
+            |  Data Produk       |    |  Data Pesanan     |    |  Data Ulasan    |
+            +-----------------+    +-----------------+    +-----------------+
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+            +-----------------+    +-----------------+    +-----------------+
+            |  Data Pembayaran |    |  Data Pengiriman   |    |  Data Promosi   |
+            +-----------------+    +-----------------+    +-----------------+
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+                           |               |               |
+           +-----------------+     +-----------------+      +-----------------+
+           |  Sistem Marketplace |-----|   Sistem Pembayaran  |------|  Sistem Kurir   |
+           +-----------------+     +-----------------+      +-----------------+
+                                          |
+                                          |
+                                          |
+                                     +-----------------+
+                                     |   Data Analitik   |
+                                     +-----------------+
+
+
+
+                                       Keterangan:
+External Entities: Petani/Peternak dan Konsumen adalah pihak eksternal yang berinteraksi dengan sistem marketplace.
+Data Stores: Tabel database yang menyimpan data utama seperti produk, pesanan, ulasan, pembayaran, pengiriman, promo, stok, dan lain-lain.
+Processes: Sistem Marketplace, Sistem Pembayaran, dan Sistem Kurir adalah proses utama yang menjalankan fungsi-fungsi utama marketplace.
+Data Flows: Garis-garis yang menghubungkan entities dan processes menunjukkan alur data.
+Data Analitik: Sistem mengumpulkan data untuk analisis dan meningkatkan strategi bisnis.
+Detail Alur Data:
+Petani/Peternak menambahkan data produk ke Sistem Marketplace.
+Konsumen mencari dan memilih produk, menambahkan produk ke keranjang belanja, dan menyelesaikan proses pemesanan.
+Sistem Marketplace memverifikasi data pesanan dan mengirimkan notifikasi kepada petani/peternak.
+Petani/peternak mempersiapkan pesanan dan mengirimkan produk ke Sistem Kurir atau ke lokasi konsumen (jika pengambilan sendiri).
+Konsumen membayar pesanan melalui Sistem Pembayaran.
+Sistem Pembayaran memverifikasi pembayaran dan mengupdate status pesanan.
+Sistem Kurir mengirimkan produk ke lokasi konsumen.
+Konsumen menerima produk dan memberikan ulasan dan rating.
+Sistem Marketplace mengupdate data pesanan, stok, dan peringkat.
+Sistem Marketplace mengumpulkan data untuk analisis dan meningkatkan strategi bisnis.
+Level Detail:
+Diagram ini adalah DFD level 0, yang menunjukkan gambaran umum alur data.
+Untuk detail yang lebih spesifik, Anda dapat membuat DFD level 1 yang menunjukkan proses-proses internal dari setiap sistem.
+Misalnya, DFD level 1 untuk Sistem Marketplace dapat menunjukkan proses pendaftaran pengguna, proses pencarian produk, proses pemesanan, dan proses manajemen pesanan.
+Catatan:
+DFD ini hanyalah contoh dan dapat dimodifikasi berdasarkan kebutuhan spesifik marketplace "Fresh & Local" Anda.
+DFD membantu dalam memahami alur data dan hubungan antar komponen sistem.
