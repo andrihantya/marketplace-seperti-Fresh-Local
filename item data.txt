@@ -1,0 +1,209 @@
+Berikut jenis item data yang sesuai dengan logic Marketplace "Fresh & Local":
+
+1. Data Petani/Peternak:
+
+Profil:
+
+ID Petani/Peternak (unik)
+
+Nama Lengkap
+
+Alamat Email
+
+Nomor Telepon
+
+Lokasi (Koordinat GPS, Alamat Lengkap)
+
+Foto Profil
+
+Deskripsi (Tentang Farm/Usaha)
+
+Jenis Produk Utama (Buah, Sayuran, Daging, Susu, Telur, dll)
+
+Sertifikasi (Organic, Halal, dll)
+
+Status Verifikasi
+
+Produk:
+
+ID Produk (unik)
+
+Nama Produk
+
+Deskripsi Produk
+
+Kategori Produk (Buah, Sayuran, Daging, Susu, Telur, dll)
+
+Subkategori (misalnya, Apel, Bayam, Sapi, Susu Sapi, Telur Ayam)
+
+Harga Satuan
+
+Stok Tersedia
+
+Satuan (Kg, pcs, liter, dll)
+
+Foto Produk
+
+Jadwal Ketersediaan (hari panen, musim panen)
+
+Kualitas Produk (Organik, Bebas Pestisida, dll)
+
+Ulasan dan Rating (rata-rata rating, jumlah ulasan)
+
+Transaksi:
+
+ID Transaksi (unik)
+
+ID Petani/Peternak
+
+ID Konsumen
+
+Tanggal Transaksi
+
+Produk yang Dibeli (Nama, Jumlah, Harga Satuan)
+
+Total Biaya
+
+Metode Pengiriman (Pengambilan Sendiri, Kurir)
+
+Metode Pembayaran (Transfer Bank, Dompet Digital)
+
+Status Pemesanan (Sedang Diproses, Dikirim, Selesai)
+
+Ulasan dan Rating (rata-rata rating, jumlah ulasan)
+
+Data Tambahan:
+
+Informasi Kontak (Alamat Lengkap, Nomor Telepon)
+
+Riwayat Transaksi (Tanggal, Total Biaya)
+
+Data Stok Produk
+
+Data Pengiriman (Jadwal Pengiriman, Status Pengiriman)
+
+2. Data Konsumen:
+
+Profil:
+
+ID Konsumen (unik)
+
+Nama Lengkap
+
+Alamat Email
+
+Nomor Telepon
+
+Lokasi (Koordinat GPS, Alamat Lengkap)
+
+Foto Profil
+
+Preferensi Produk (Kategori, Kualitas, Lokasi)
+
+Riwayat Pembelian (Tanggal, Total Biaya, Status Pemesanan)
+
+Ulasan dan Rating (rata-rata rating, jumlah ulasan)
+
+Keranjang Belanja:
+
+ID Keranjang (unik)
+
+ID Konsumen
+
+Produk yang Dibeli (Nama, Jumlah, Harga Satuan)
+
+Total Biaya
+
+Status (Diproses, Selesai)
+
+Data Tambahan:
+
+Informasi Kontak (Alamat Lengkap, Nomor Telepon)
+
+Riwayat Transaksi (Tanggal, Total Biaya)
+
+Data Pengiriman (Alamat Pengiriman, Metode Pengiriman)
+
+Data Pembayaran (Metode Pembayaran, Status Pembayaran)
+
+3. Data Sistem:
+
+Kategori Produk:
+
+ID Kategori (unik)
+
+Nama Kategori (Buah, Sayuran, Daging, Susu, Telur, dll)
+
+Kualitas Produk:
+
+ID Kualitas (unik)
+
+Nama Kualitas (Organik, Bebas Pestisida, Halal, dll)
+
+Metode Pengiriman:
+
+ID Metode (unik)
+
+Nama Metode (Pengambilan Sendiri, Kurir)
+
+Metode Pembayaran:
+
+ID Metode (unik)
+
+Nama Metode (Transfer Bank, Dompet Digital)
+
+Data Statistik:
+
+Total Penjualan
+
+Jumlah Petani/Peternak
+
+Jumlah Konsumen
+
+Peringkat Penjual
+
+Analisis Permintaan Produk
+
+4. Data Lainnya:
+
+Data Kurir:
+
+ID Kurir (unik)
+
+Nama Kurir
+
+Nomor Telepon
+
+Lokasi
+
+Data Promosi:
+
+ID Promo (unik)
+
+Nama Promo
+
+Persentase Diskon
+
+Periode Promo
+
+Data Ulasan dan Rating:
+
+ID Ulasan (unik)
+
+ID Produk/Penjual
+
+ID Konsumen
+
+Rating (1-5)
+
+Ulasan (Teks)
+
+Data ini dapat digunakan untuk membangun database dan sistem yang kompleks untuk Marketplace "Fresh & Local".
+
+Catatan:
+
+Item data ini hanya contoh dan dapat diubah sesuai kebutuhan.
+
+Penting untuk memilih struktur data yang efisien dan mudah diakses.
+
+Penting juga untuk mempertimbangkan keamanan data dan privasi.
