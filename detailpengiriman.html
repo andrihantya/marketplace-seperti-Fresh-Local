@@ -1,0 +1,23 @@
+<h2>Detail Pengiriman</h2>
+<form>
+  <div class="form-group">
+    <label for="nama_kurir">Nama Kurir:</label>
+    <select class="form-control" id="nama_kurir" required>
+      <option value="">Pilih nama kurir</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label for="nomor_resi">Nomor Resi (Optional):</label>
+    <input type="text" class="form-control" id="nomor_resi" placeholder="Masukkan nomor resi">
+  </div>
+  <div class="form-group">
+    <label for="status_pengiriman">Status Pengiriman:</label>
+    <select class="form-control" id="status_pengiriman" required>
+      <option value="">Pilih status pengiriman</option>
+      <option value="sedang_diproses">Sedang Diproses</option>
+      <option value="dikirim">Dikirim</option>
+      <option value="diterima">Diterima</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Simpan Detail Pengiriman</button>
+</form>
